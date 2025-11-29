@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Contact - Random Picker</title>
+    <link rel="icon" type="image/png" href="assets/images/random_pick_logo_nobg.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+                    <img src="assets/images/random_pick_logo_nobg.png" alt="Random Picker Logo" class="logo">
+                    <span class="logo-text">Random Picker</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#features" class="nav-link">Features</a></li>
+                <li><a href="index.html#quick-tools" class="nav-link">Quick Tools</a></li>
+                <li><a href="index.html#custom-lists" class="nav-link">Custom Lists</a></li>
+                <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+                <li><a href="support.html" class="nav-link active">Support</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title neon-glow">Contact Us</h2>
+            <p class="section-subtitle">Have a question or feedback? We'd love to hear from you!</p>
+            
+            <form class="contact-form" id="contactForm" data-aos="fade-up">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support-page" id="support">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="section-title neon-glow">Support & FAQ</h1>
+                <p class="page-subtitle">Find answers to common questions</p>
+            </div>
+            
+            <div class="support-content" data-aos="fade-up">
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I create a custom list?</h3>
+                    <p class="faq-answer">Go to the Custom Lists section, tap the "+" button, enter a name for your list, add items, and save. You can use emojis and icons to make your lists more visual.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I use my custom lists in multiple tools?</h3>
+                    <p class="faq-answer">Yes! Once you create a custom list, you can use it in Wheel Spinner, Select Multiple, Shuffle, Group Maker, and Pairing tools.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Is my data stored online?</h3>
+                    <p class="faq-answer">No, all your data is stored locally on your device. We don't collect or store any information online.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">How many items can I add to a list?</h3>
+                    <p class="faq-answer">There's no limit! You can add as many items as you want to any list, and create unlimited lists and categories.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I share my lists with others?</h3>
+                    <p class="faq-answer">Currently, lists are stored locally on your device. We're working on sharing features for future updates.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I use the Wheel Spinner?</h3>
+                    <p class="faq-answer">Simply add your options to the wheel, then tap the spin button. The wheel will spin and randomly select one of your options. You can customize colors and add emojis to make it more fun!</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What's the difference between Shuffle and Select Multiple?</h3>
+                    <p class="faq-answer">Shuffle randomizes the order of all items in your list. Select Multiple randomly chooses a specified number of items from your list without changing the order of the remaining items.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I use the app offline?</h3>
+                    <p class="faq-answer">Yes! The app works completely offline. All features are available without an internet connection since everything is stored locally on your device.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">The app isn't working properly. What should I do?</h3>
+                    <p class="faq-answer">Try closing and reopening the app. If the issue persists, make sure you have the latest version installed. You can also contact us through the contact form below and we'll help you resolve it.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I delete my custom lists?</h3>
+                    <p class="faq-answer">Go to the Custom Lists section, find the list you want to delete, and use the delete option. You can also clear all data through the app settings.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/random_pick_logo_nobg.png" alt="Random Picker Logo" class="footer-logo-img">
+                    <p class="footer-tagline">Let the Phone Decide</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html" class="footer-link">Privacy</a>
+                    <a href="support.html" class="footer-link">Support</a>
+                    <a href="support.html#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Random Picker. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
